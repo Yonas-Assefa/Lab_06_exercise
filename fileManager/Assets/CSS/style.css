@@ -1,0 +1,33 @@
+i {
+    color: red;
+}
+
+.nav-wrapper ul li{
+    position: relative !important;
+}
+
+.nav-wrapper ul li ul{
+    display: none !important;
+    position: relative;
+}
+
+.nav-wrapper ul li:hover ul{
+    display: block !important;
+}
+.nav-wrapper ul li ul li{
+    /* list-style: none !important; */
+    position:static !important;
+    background-color: #f88 !important;
+    width: 100px;
+    
+}
+
+.nav-wrapper ul li ul li a{
+    padding: 0px 3px !important;
+    
+}
+
+.nav-wrapper ul li ul li a:hover{
+    background-color: #535353;
+    
+}
